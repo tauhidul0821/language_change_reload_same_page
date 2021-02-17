@@ -1,0 +1,24 @@
+
+<router-outlet></router-outlet>
+<div>
+  <a class="custom-control custom-radio radio-dropdown-item my-2 ml-1">
+    <input type="radio" (click)="changeTosellBook()" id="customRadio1" name="customRadio"
+      class="custom-control-input" value="es">
+    <label class="custom-control-label" for="customRadio1">
+      <span> change to sellBook</span>
+    </label>
+  </a>
+</div>
+<div>
+  <a class="custom-control custom-radio radio-dropdown-item my-2 ml-1">
+    <input type="radio" (click)="changeTobuyBook()" id="customRadio1" name="customRadio"
+      class="custom-control-input" value="es">
+    <label class="custom-control-label" for="customRadio1">
+      <span> change to buyBook</span>
+    </label>
+  </a>
+</div>
+
+
+<button (click)="changeTosellBook()">change to sellBook</button>
+<button (click)="changeTobuyBook()">change to buyBook</button>
